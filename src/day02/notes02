@@ -1,0 +1,86 @@
+File Extensions:
+            file names                  extensions
+            pdf                         .pdf
+            Excel                    .xlsx
+            PowerPoint                    .ppt
+            pictures                      .png, .jpg
+            word document                   .doc
+            text files                    .txt
+            HTML                     .html
+            Java                     .java
+Folder: Contains files and folders
+      create folder(package) in java:  right click src folder
+         Mac: right click - new - package
+         windows: right click - new - package
+Instalation of JAva
+Intelije Idea
+JDK 8
+open terminal (Mac only):
+      search -> type "terminal" + Enter
+open command prompt (window only):
+      in search bar Type "command prompt" + Enter
+short cuts:
+   windows:
+      copy: ctrl + c
+      paste: ctrl + v
+   Mac:
+      copy: command + C
+      paste: command + v
+class: where we write our codes
+main method: runs the codes as java application
+      public static void main(String[] args) {  }
+IdeaProject folder: It has all the project that we have created in IntelliJ
+   how to find it:
+      windows:
+         This PC -> C -> users -> YourName -> IdeaProject
+      Mac:
+         go to Finder -> search for "IdeaProject"
+print statement: prints the output to the console
+      System.out.println();
+how to rename in intellij:
+      right click -> refactor -> Rename -> give the new name
+Comment: extra notes between codes.
+         It doesnt effect actual code
+   single-line comment:   starts with //
+            // comment1
+   multi-line comment:  starts with /* and ends with */
+            /*
+            comment1
+            comment2
+            comment3
+            */
+escape sequences:
+    \t: paragraph space
+    \n: new line
+    \": prints double quote " on the console
+    \\: prints \ on the console
+    \': prints single quote
+    ' : prints single quote
+    //        Primitive Data Types
+     //        A primitive data type specifies the size and type of variable values, and it has no additional methods.
+     //
+     //                There are eight primitive data types in Java:
+     //
+     //        Data Type           Size           Description
+     //        byte                1 byte         Stores whole numbers from -128 to 127
+     //        short            2 bytes            Stores whole numbers from -32,768 to 32,767
+     //        int             4 bytes            Stores whole numbers from -2,147,483,648 to 2,147,483,647
+     //        long                8 bytes            Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+     //        float           4 bytes            Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+     //        double          8 bytes            Stores fractional numbers. Sufficient for storing 15 decimal digits
+     //        boolean         1 bit          Stores true or false values
+     //        char                2 bytes            Stores a single character/letter or ASCII values   'a'
+primitive data types: byte, short, int, long, float, double, char, boolean
+   for numbers: byte, short, int, long, float, double
+      whole number: byte, short, int, long
+      decimal number: float, double
+      range:
+            double > float > long > int > short > byte
+            larger one cannot be assigned to smaller one
+            smaller one can be assigned to larger one
+As a default java picks int for whole number
+As a default java picks double for decimal number
+Non primitive types: String, Object
+There are also reference types that wrap the primitive types.
+These can be useful if you need a make a variable null or use it in a class that requires a non-primitive type
+Non primitives are usually objects that we create (the exception being String)
