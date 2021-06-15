@@ -22,6 +22,8 @@ public class MethodsExe3 {
             }
         }
         System.out.println(result);
+        //k;fsi;
+        //lknséf
 
     }
 }
